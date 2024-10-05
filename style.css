@@ -1,0 +1,79 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("backimg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; 
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%); 
+        opacity: 0; }
+    50% {
+        opacity: 1; }
+    100% {
+        transform: translateX(0); 
+    }
+}
+
+#welcome-msg h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    color: rgba(255, 245, 245, 0.938);
+    animation: slideIn 5s ease forwards; 
+}
+
+#welcome-msg p{
+    display: flex;
+   justify-content: center;
+   padding-top: 10px;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgba(255, 245, 245, 0.938);
+}
+
+#quote-container{
+    height: 300px; 
+    width: 600px;
+    background-color: rgba(156, 151, 151, 0.829);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); 
+}
+#quote-content h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 25px;
+    color: black;
+}
+
+#quote-content button{
+    margin-top: 100px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(90, 84, 84, 0.048);
+    height: 30px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+#quote {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-top: 50px;
+}
+
