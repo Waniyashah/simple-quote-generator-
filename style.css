@@ -76,4 +76,62 @@ body {
     color: black;
     margin-top: 50px;
 }
+@media (max-width: 768px) {
+    #quote-container {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
 
+    #quote-content h3 {
+        font-size: 20px;
+    }
+
+    #welcome-msg h1 {
+        font-size: 24px;
+    }
+
+    #welcome-msg p {
+        font-size: 18px;
+    }
+
+    #quote {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    #quote-content button {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    #quote-container {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+    }
+
+    #quote-content h3 {
+        font-size: 18px;
+    }
+
+    #welcome-msg h1 {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    #welcome-msg p {
+        font-size: 16px;
+    }
+
+    #quote {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    #quote-content button {
+        margin-top: 30px;
+        height: 40px;
+    }
+}
